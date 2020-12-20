@@ -1,5 +1,9 @@
 # jsSnow 0.5.1
 
+Updated with fixed HTML and uses the most current JavaScript code from Klepp's
+site. The 0.5 version did not work for me (using Firefox 84 in 2020). Original
+readme below:
+
 ## :snowflake: Hey, what's this? Looks like XSnow!
 
 Yes, it is. I was looking for a port of my favorite toy, but didn't find any. So I took the graphics from Rick Jansens Xsnow 1.40 ([http://www.euronet.nl/~rja/](http://www.euronet.nl/~rja/)), went to the kitchen, got me (Nikolaus Klepp, dr.klepp@gmx.at) a mixer, ice ... and here it is: the first XSnow port to JavaScript!
