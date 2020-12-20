@@ -1,0 +1,5 @@
+/* jssnow */
+div#info { position:absolute; left:3px; top:3px; color: white; z-index: 2; }
+div[id^="santa"] { filter: drop-shadow(0px 0px 3px #aaaaaa); position: absolute; left: -1px; z-index: 3; }
+div[id^="flake"] { filter: drop-shadow(0px 0px 5px #000000); position: absolute; left: -1px; z-index: 3; }
+div[id^="tree"]  { filter: drop-shadow(0px 0px 5px #008800); position: absolute; left: -1px; z-index: 3; }

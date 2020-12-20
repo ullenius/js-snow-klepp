@@ -1,0 +1,92 @@
+<!-----------------------------------------------------------------------------------------
+// XSnow f�r JavaScript - von Mag. Dr. Nikolaus Klepp - dr.klepp@gmx.at - www.klepp.info
+//-----------------------------------------------------------------------------------------
+	jsSnow
+    Copyright (C) 2002,2019 Mag. Dr. Nikolaus Klepp
+    Contributions of:
+	Copyright (C) 2002 INOUE Hiroyuki <dombly@kc4.so-net.ne.jp>
+	Copyright (C) 2002 Heiko Feldker <hfeldker@web.de>
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+------------------------------------------------------------------------------------------>
+<HTML>
+<HEAD>
+	<!-- THE SANTA & SNOW PROGRAM -->
+	<script src="jsSnow.js"></script>
+	<LINK REL=StyleSheet HREF="jsSnow.css" TITLE="Contemporary" TYPE="text/css">
+	<title>jsSnow - XSnow for Webpages</title>
+	<style>
+        body {
+            font-family: "Trebuchet Ms", Verdana, sans-serif;
+            font-weight: normal;
+            font-size: 10pt;
+            margin: 30px;
+            color: #c0c0c0;
+            background-color: #515170;
+        }
+        a			{ color:#ffffff; text-decoration:none; font-weight:bold; }
+        a:link		{ color:#ffffff; }
+        a:visited	{ color:#ffffff; }
+        a:active	{ color:#ffffff; }
+        a:hover		{ color:#ffffff; }
+        img[id="tree"] { filter: drop-shadow(0px 0px 5px #008800); }
+    </style>
+</HEAD>
+
+<BODY BGCOLOR=#515170 COLOR=#ffffff vlink=#0000ff>
+
+	<!-- THIS BUILDS THE SANTA & SNOW LAYERS -->
+	<DIV id=info></DIV>
+	<SCRIPT>start();</SCRIPT>
+
+	<!-- REST OF PAGE -->
+	<DIV>
+	<h2>jsSnow 0.5</h2>
+
+	<h3>Hey, what's this? Looks like XSnow!</h3><br>
+	<img id=tree src=tannenbaum.gif style='float:left;'>
+	Yes, it is. I was looking for a port of my favorite toy, but didn't find any.
+	So I took the graphics from Rick Jansens Xsnow 1.40
+	(<a href='https://web.archive.org/web/20010124074300/http://www.euronet.nl/~rja/'>http://www.euronet.nl/~rja/</a>),
+	went to the kitchen, got me (Nikolaus Klepp, <a href=mailto:dr.klepp@gmx.at>dr.klepp@gmx.at</a>) a mixer, ice ... and here it is:
+	the first XSnow port to JavaScript!<br><br>
+	<b>Breaking news: after 17 years here's version 0.5 .. now with trees :)</b><br><br>
+	<h4>Where to download?</h4>
+		<ul>
+			<li>here's is the whole package of this page. Please refer to the html sources
+				of how to install. It works for Mozilla based browsers (Netscape ...), Konqueror, Opera and M$IE.
+				Also take a look at the <a href=./CHANGES>CHANGES</A>.<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;<a href=./jsSnow-0.5.tar.gz>jsSnow-0.5.tar.gz</A> (current)<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;<a href=./jsSnow-0.4.tar.gz>jsSnow-0.4.tar.gz</A><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;<a href=./jsSnow-0.3.tar.gz>jsSnow-0.3.tar.gz</A><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;<a href=./jsSnow-0.2.tar.gz>jsSnow-0.2.tar.gz</A><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;<a href=./jsSnow-0.1.tar.gz>jsSnow-0.1.tar.gz</A><br>
+				</li>
+		</ul>
+	<h4>What's missing?</h4>
+		<ul>
+			<li>Opera code needs fix (can't write to layer, can't show hidden layer).
+				But as time goes by, maybe this point will vanish.</li>
+			<li>Could somebody reoganize the code, please? <img id=tree src=tannenbaum.gif style='float:right;'></li>
+			<li>Themes are still missing. Would get them for free when code
+				gets objet orientied.</li>
+		</ul>
+	<h4>License?</h4>
+		<ul>
+			<li><a href=./LICENSE>GNU GENERAL PUBLIC LICENSE</a>, of course :-)</li>
+		</ul>
+	</DIV>
+</body>
+</html>
