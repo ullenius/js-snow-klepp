@@ -3,3 +3,17 @@ div#info { position:absolute; left:3px; top:3px; color: white; z-index: 2; }
 div[id^="santa"] { filter: drop-shadow(0px 0px 3px #aaaaaa); position: absolute; left: -1px; z-index: 3; }
 div[id^="flake"] { filter: drop-shadow(0px 0px 5px #000000); position: absolute; left: -1px; z-index: 3; }
 div[id^="tree"]  { filter: drop-shadow(0px 0px 5px #008800); position: absolute; left: -1px; z-index: 3; }
+body {
+	font-family: "Trebuchet Ms", Verdana, sans-serif;
+	font-weight: normal;
+	font-size: 10pt;
+	margin: 30px;
+	color: #c0c0c0;
+	background-color: #515170;
+}
+a			{ color:#ffffff; text-decoration:none; font-weight:bold; }
+a:link		{ color:#ffffff; }
+a:visited	{ color:#ffffff; }
+a:active	{ color:#ffffff; }
+a:hover		{ color:#ffffff; }
+img[id="tree"] { filter: drop-shadow(0px 0px 5px #008800); }

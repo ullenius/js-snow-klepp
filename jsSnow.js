@@ -40,7 +40,7 @@ var pageOffY   = 0;
 
 
 // <---- Customizable part ----
-var imageDir   = './';				    // relative path for the images
+var imageDir   = './';			    // relative path for the images
 var santaSize  = '2';                   // 1, 2 or 3 (smaller number specifies smaller image)
 
 //var infoLayer  = 'info';       	        // name of Infolayer - set to false if you don't need f/s display
@@ -150,7 +150,7 @@ function rebuild_speed_and_timer() {
 	storm_speed = storm_speed_PperS/refresh_FperS; 		// pixel/second  --> pixel/frame
 
 	if (timer_id) window.clearInterval(timer_id);		// adapt timer
-	timer_id = window.setInterval(move_snow_santa_trees,refresh);
+	timer_id = window.setInterval(move_snow_santa,refresh);
 
 	// FRAMES PER SECOND DISPLAY: REMOVE IF NOT NEEDED
 	if ((infoLayer) && (old!=refresh_FperS)) write_to_layer(infoLayer,refresh_FperS+'f/s');
@@ -468,7 +468,7 @@ function get_page_dimension() {
 		pageHeight = document.body.clientHeight + pageOffY;
 	}
 
-	move_trees();
+	if (tree[0]) move_trees();
 }
 
 
@@ -503,11 +503,13 @@ function start() {
 	rebuild_speed_and_timer(refresh);
 
 	// start the animation
-    timer_id = window.setInterval(move_snow_santa_trees,refresh);
+    timer_id = window.setInterval(move_snow_santa,refresh);
 	storm_id = window.setInterval(storm_proc,1800);					// init with visible storm
 	flake_id = window.setInterval(make_flake_visible_proc,2000);	// after the storm, let snowflakes fall :-)
 }
 
+/* ZIM */
+start();
 
 /* file-variable settings for Emacsen editors
 	Local Variables:
