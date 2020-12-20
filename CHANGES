@@ -1,5 +1,10 @@
 CHANGES
 
+0.5.1 - 2020
+- move all CSS to external file
+- All HTML now validates (HTML 5)
+- fix broken JS (use newest version from Klepp's website)
+
 0.5 - 2019
 - mods for modern javascript
 - remove onLoad, as it gives problems on firefox
